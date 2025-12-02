@@ -104,4 +104,7 @@ $(function() { // Makes sure that your function is called once all the DOM eleme
       $('.weight').text(pet_info['weight']);
       $('.happiness').text(pet_info['happiness']);
     }
+
+    // Intentional bug
+    console.log(intentionalBug);
   
