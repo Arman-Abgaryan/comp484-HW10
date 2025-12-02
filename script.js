@@ -44,6 +44,9 @@ $(function() { // Makes sure that your function is called once all the DOM eleme
       $("#petMessage").text("I love to play!").slideDown();
       setTimeout(() => $("#petMessage").slideUp(), 2500);
       checkAndUpdatePetInfoInHtml();
+
+      // Intentional bug
+      console.log(intentionalBug);
     }
     
     function clickedExerciseButton() {
@@ -105,6 +108,5 @@ $(function() { // Makes sure that your function is called once all the DOM eleme
       $('.happiness').text(pet_info['happiness']);
     }
 
-    // Intentional bug
-    console.log(intentionalBug);
+
   
