@@ -94,3 +94,8 @@
   .spin-animation {
     animation: spin 1s linear forwards;
   }
+
+  .button-container button:hover {
+    outline: 3px solid red;
+  }
+  
