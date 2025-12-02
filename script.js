@@ -46,7 +46,7 @@ $(function() { // Makes sure that your function is called once all the DOM eleme
       checkAndUpdatePetInfoInHtml();
 
       // Intentional bug
-      console.log(intentionalBug);
+      // console.log(intentionalBug);
     }
     
     function clickedExerciseButton() {
